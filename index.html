@@ -51,10 +51,10 @@ title: Home
 
 <div class="PageNavigation">
   {% if paginator.next_page %}
-    <a class="prev" href="{{ paginator.next_page_path | prepend: site.baseurl }}">← Older</a>
+    <a class="prev" href="{{ paginator.next_page_path | prepend: site.baseurl }}">← 上一篇</a>
   {% endif %}
   {% if paginator.previous_page %}
-    <a class="next" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer →</a>
+    <a class="next" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">下一篇 →</a>
   {% endif %}
 </div>
 
