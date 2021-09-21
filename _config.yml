@@ -1,7 +1,7 @@
 # Setup
 title: justforheart
-tagline: 献出我的心脏，愿你永生
-url: https://www.justforheart.fun
+tagline: 心之所向
+url: https://justforheart.github.io
 paginate: 1
 baseurl: ""
 permalink: :title/
