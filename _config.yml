@@ -19,7 +19,7 @@ collection_order    :
     "music",
     "physics",
     "biology",
-    "finance",
+    "beauty",
     "physics",
     "my_notes",
     "portfolio",
@@ -51,7 +51,7 @@ collections:
     output          : true
     permalink       : /:collection/:title/
     alias           : "生物"
-  finance:
+  beauty:
     output          : true
     permalink       : /:collection/:title/
     alias           : "某人"
