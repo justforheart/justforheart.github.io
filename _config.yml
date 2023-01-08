@@ -22,7 +22,7 @@ collection_order    :
     "beauty",
     "physics",
     "my_notes",
-    "portfolio",
+    "Linux",
   ]
 collections:
   math:   
@@ -30,14 +30,14 @@ collections:
     permalink       : /:collection/:title/
     sort_by         : date
     alias           : "数学"
-  portfolio:
+  Linux:
     output          : true
     permalink       : /:collection/:title/
     order: # specify post order manually
       - portfolio3.md
       - portfolio2.md
       - portfolio1.md
-    alias           : "作品"
+    alias           : "Linux"
   music:
     output          : true
     permalink       : /:collection/:title/
@@ -54,7 +54,7 @@ collections:
   beauty:
     output          : true
     permalink       : /:collection/:title/
-    alias           : "某人"
+    alias           : "美人"
   my_notes:
     output          : true
     permalink       : /:collection/:title/
