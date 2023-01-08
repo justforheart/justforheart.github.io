@@ -6,7 +6,7 @@ baseurl            : "/"
 permalink           : /:title/
 description         : "你当像鸟儿飞向你的山."
 markdown            : kramdown
-statement           : "一个非常能装X的网页."
+statement           : "正经人谁写日记啊，你写吗？"
 bgtext              : "0123456789ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
