@@ -91,16 +91,8 @@ defaults:
 
 # 5. Social Media Accounts
 email               : "1491516376@qq.com" 
-linkedin            : 
 github              : "justforheart" 
-gitlab              : 
 website             : "https://justforheart.github.io"
-twitter             : "just-test"
-facebook            : "just-test"
-instagram           : 
-youtube             : "just-test"
-steam               : "just-test"
-weibo               :
       
 # 6. Where things are
 source              : .
