@@ -59,7 +59,7 @@ collections:
     output          : true
 
 # 3. Comment settings（disqus.com）
-disqus_username     : akiritsu
+disqus_username     : JustForHeart
 
 # 4. Default page settings (WILL BE overwriten by front-matters of a page)
 defaults:
@@ -76,7 +76,7 @@ defaults:
       encrypted_text      : false       # whether use encrytion function by default
       toc                 : true        # whether show table of content by default
       toc_level           : 3           # the toc depth by default
-      author              : "DeerRIDER" # author name by default
+      author              : "JustForHeart" # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
       post_list           : false       # whether show list of post by default      
@@ -86,7 +86,7 @@ defaults:
 # 5. Social Media Accounts
 email               : "1491516376@qq.com" 
 linkedin            : 
-github              : "just-test" 
+github              : "https://www.github.com/justforheart" 
 gitlab              : 
 website             : "https://justforheart.github.io"
 twitter             : "just-test"
