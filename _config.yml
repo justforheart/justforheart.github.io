@@ -54,7 +54,7 @@ collections:
     output          : true
     permalink       : /:collection/:title/
     # An alias should be given or the UNDERSCORE will appeared 
-    alias           : "My Notes"
+    alias           : "笔记"
   posts:
     output          : true
 
