@@ -29,7 +29,7 @@ collections:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-    alias           : "Mathematics"
+    alias           : "数学"
   portfolio:
     output          : true
     permalink       : /:collection/:title/
@@ -37,19 +37,24 @@ collections:
       - portfolio3.md
       - portfolio2.md
       - portfolio1.md
+    alias           : "作品"
   album:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
+    alias           : "音乐"
   physics:
     output          : true
     permalink       : /:collection/:title/
+    alias           : "物理"
   biology:
     output          : true
     permalink       : /:collection/:title/
+    alias           : "生物"
   finance:
     output          : true
     permalink       : /:collection/:title/
+    alias           : "某人"
   my_notes:
     output          : true
     permalink       : /:collection/:title/
@@ -79,7 +84,7 @@ defaults:
       author              : "JustForHeart" # author name by default
       show_date           : true        # whether show date message by default
       category            :             # category by default
-      post_list           : false       # whether show list of post by default      
+      post_list           : true       # whether show list of post by default      
       comment             : true
       footer              : true        # whether show footer by default
 
