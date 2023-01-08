@@ -4,14 +4,14 @@ show_downloads: false
 google_analytics:
 theme: jekyll-theme-hacker
 
-title: [The title of your blog]
+title: The title of your blog
 description: [A short description of your blog's purpose]
-url: [https://github.com/justforheart]
+url: https://github.com/justforheart
 author:
-  name: [justforheart]
-  email: [1491516376@qq.com]
-  url: [https://github.com/justforheart/justforheart.github.io]
+  name: justforheart
+  email: 1491516376@qq.com
+  url: https://github.com/justforheart/justforheart.github.io
 
-paginate: [5]
-owner: [justforheart]
-year: [2023]
+paginate: 5
+owner: justforheart
+year: 2023
