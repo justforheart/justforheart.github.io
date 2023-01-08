@@ -1,180 +1,29 @@
 ---
 layout: default
 post_list: true
-toc: false
+toc: true
 comment: true
 home_btn: true
 btn_text: true
 footer: true
-title: ""
-author: ""
+title: "黑客守则"
+author: "nobody"
 encrypted_text: true
 permalink: /
 ---
-
-# PROJECT VeXEd - HACKER-STYLE PERSONAL HOMEPAGE
-
-<br>
-> pRoJEct-NeGYa is a hacker-like, highly-customizable theme for note-keeping, personal-website or CV.
-
-## Features
-
-- Highly customizable with user-friendly hacker-like design.
-- Easy to gather your notes or portfolios with multiple collection design.
-- Supports formula insertion with `MathJax`.
-
-$$
-\mathbf{V}_1 \times \mathbf{V}_2 =  \begin{vmatrix}
-\mathbf{i} & \mathbf{j} & \mathbf{k} \\
-\frac{\partial X}{\partial u} &  \frac{\partial Y}{\partial u} & 0 \\
-\frac{\partial X}{\partial v} &  \frac{\partial Y}{\partial v} & 0 \\
-\end{vmatrix}
-$$
-
-- Supports code highlight with `Rouge`.
-
-```python
-arr = [10, 7, 8, 9, 1, 5]
-n = len(arr)
-quickSort(arr,0,n-1)
-print ("Sorted array is:")
-for i in range(n):
-    print ("%d" %arr[i]),
-```
-
-- Decrypt and encrypt text (access token: 233):
-  - secret msg example:
-  <p class="encrypted" id="/MZAf/PKx9jpw8/Jnp7XQQFki2ibGnArZP46W+keVThXquhWwFROEFnbY8eC57Tw==">Encrypted content!</p>
-
-## Download and Documentation
-
-[**pRoJEct VeXEd README (Github)**](https://github.com/akiritsu/pRoJEct-VeXEd)
-
-[Download ZIP files](https://codeload.github.com/akiritsu/pRoJEct-VeXEd/zip/master)
-
-[中文自述及使用教程](https://akiritsu.github.io/pRoJEct-VeXEd/readme-zhcn/)
-
-## More Samples
-
-### Font style and link
-
-normal **bold** _italic_ ~~strikethrough~~ `keyword` [Link to Google](www.google.com)
-
-### List
-
-1. ordered list item 1
-   1. sublist
-      1. subsublist
-
-- unordered list
-  - sublist
-
-### Table
-
-| Date         | Version   | Size    | Comment                |
-| :----------- | :-------- | :------ | :--------------------- |
-| Nov 11, 2018 | v2.14c    | 240 kb  | No irreversible damage |
-| Nov 12, 2018 | v2.14c    | 1230 kb | No irreversible damage |
-| Nov 13, 2018 | v2.14c    | 12kb    | No irreversible damage |
-| Nov 15, 2018 | v1.99 LTS | 4kb     | Irreversible damage    |
-
-### Diagram and Chart
-
-#### Pie Chart
-
-```mermaid
-pie
-    title Pie Chart
-    "Dogs" : 36
-    "Cats" : 85
-    "Rats" : 150
-    "Pheonix" : 120
-    "Elephant" : 330 
-```
-
-#### Sequence Diagram
-
-```mermaid
-sequenceDiagram
-    Alice->>Bob: Hello Bob, how are you?
-    alt is sick
-    Bob->>Alice: Not so good :(
-    else is well
-    Bob->>Alice: Feeling fresh like a daisy
-    end
-    opt Extra response
-    Bob->>Alice: Thanks for asking
-    end
-```
-
-#### Flow Chart
-
-```mermaid
-graph LR
-A[Hard edge] -->B(Round edge)
-    B --> C{Decision}
-    C -->|One| D[Result one]
-    C -->|Two| E[Result two]
-```
-
-### More Texts
-
-Λορεμ ιπσθμ δολορ σιτ αμετ, νονθμυ δολορεσ πρινcιπεσ εαμ αν, ρεγιονε σθσcιπιτ αccθσατα νε πρι, εα εαμ γραεcο μελιθσ αccθσαμ. Vολθπτθα δισσεντιασ τε ηασ, τε πρι σθασ ηαρθμ αδιπισcινγ. Qθο ατ ιθστο ταcιματεσ, μελ εραντ ρεπθδιανδαε ετ. Ετ τιμεαμ cονcεπταμ αccομμοδαρε νεc, ιδ σεα μελιορε λθπτατθμ. Αδ περσεcθτι cοντεντιονεσ θσθ. Ηομερο νοστρο θταμθρ εαμ εξ.
-
-Νεc ιδ λεγερε ρεγιονε διcερετ, vιμ εθ νιβη ιριθρε cορπορα. Αδ vιξ διcο νατθμ εσσεντ. Ιλλθδ αλιqθιδ ει σιτ, δοcτθσ vιδισσε δετραξιτ αν μεα. Ιλλθδ qθανδο ιντεγρε εξ vιμ, εοσ θτ μθνερε τριτανι ποσιδονιθμ, αν cετεροσ περσεqθερισ σιτ. Λατινε δισcερε vοcιβθσ πρι νο, vιμ cθ νοστρο μαλθισσετ vολθπταρια.
-
-### More Codes
-
-```python
-# Python program for implementation of Quicksort Sort
-
-# This function takes last element as pivot, places
-# the pivot element at its correct position in sorted
-# array, and places all smaller (smaller than pivot)
-# to left of pivot and all greater elements to right
-# of pivot
-def partition(arr,low,high):
-    i = ( low-1 )         # index of smaller element
-    pivot = arr[high]     # pivot
-
-    for j in range(low , high):
-
-        # If current element is smaller than or
-        # equal to pivot
-        if   arr[j] <= pivot:
-
-            # increment index of smaller element
-            i = i+1
-            arr[i],arr[j] = arr[j],arr[i]
-
-    arr[i+1],arr[high] = arr[high],arr[i+1]
-    return ( i+1 )
-
-# The main function that implements QuickSort
-# arr[] --> Array to be sorted,
-# low  --> Starting index,
-# high  --> Ending index
-
-# Function to do Quick sort
-def quickSort(arr,low,high):
-    if low < high:
-
-        # pi is partitioning index, arr[p] is now
-        # at right place
-        pi = partition(arr,low,high)
-
-        # Separately sort elements before
-        # partition and after partition
-        quickSort(arr, low, pi-1)
-        quickSort(arr, pi+1, high)
-
-# Driver code to test above
-arr = [10, 7, 8, 9, 1, 5]
-n = len(arr)
-quickSort(arr,0,n-1)
-print ("Sorted array is:")
-for i in range(n):
-    print ("%d" %arr[i]),
-
-# This code is contributed by Mohit Kumra
-```
+## 黑客守则
+1. 不恶意破坏任何的系统, 这样做只会给你带来麻烦。恶意破坏它人的软件将导致法律责任, 如果你只是使用电脑, 那仅为非法使用。 注意:千万不要破坏别人的文件或数据。
+2. 不修改任何系统文件, 如果你是为了要进入系统而修改它, 请在达到目的后将它还原。
+3. 不要轻易的将你要 Hack 的站点告诉你不信任的朋友。
+4. 不要在 bbs/论坛上谈论关于你 Hack 的任何事情。
+5. 在 Post 文章的时候不要使用真名。
+6. 入侵期间, 不要随意离开你的电脑。
+7. 不要入侵或攻击电信/政府机关的主机。
+8. 不在电话中谈论关于你 Hack 的任何事情。
+9. 将你的笔记放在安全的地方。
+10.读遍所有有关系统安全或系统漏洞的文件 (英文快点学好)!
+11.已侵入电脑中的帐号不得删除或修改。
+13.不将你已破解的帐号分享与你的朋友。
+14.不会编程的黑客不是好黑客。
+15.黑客不同于“盗”（精髓）。
+16.不遵守法则的黑客必将受到谴责。
