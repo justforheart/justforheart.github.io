@@ -1,13 +1,13 @@
 # 1. Site Settings
-title               : pRoJEct-VeXEd
-owner               : "DeerRIDER"
-url                : "https://akiritsu.github.io"
-baseurl            : "/pRoJEct-VeXEd"
+title               : 心之所向
+owner               : "HongYii"
+url                : "https://HongYii.github.io"
+baseurl            : "/"
 permalink           : /:title/
-description         : "A hacker-style note-keeping website template."
+description         : "你当像鸟儿飞向你的山."
 markdown            : kramdown
-statement           : "Designed by DeerRIDER, All Rights Reserved"
-bgtext              : "ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
+statement           : "一个非常能装X的网页."
+bgtext              : "0123456789ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#$%&*+-;/[]<>~" # texts randomly displayed in background
 
 # 2. Your Collections
 # You can specify the order shown in Archive window. 
