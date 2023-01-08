@@ -16,7 +16,7 @@ collection_order    :
   [
     "posts",
     "math",
-    "album",
+    "music",
     "physics",
     "biology",
     "finance",
@@ -38,7 +38,7 @@ collections:
       - portfolio2.md
       - portfolio1.md
     alias           : "作品"
-  album:
+  music:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
@@ -62,6 +62,7 @@ collections:
     alias           : "笔记"
   posts:
     output          : true
+    alias           : "博文"
 
 # 3. Comment settings（disqus.com）
 disqus_username     : JustForHeart
