@@ -24,7 +24,8 @@ function show_collection(col_name) {
         collection_labels[idx].classList.remove("show");
     }
     document.getElementById(col_name).classList.add("show");
-    document.getElementById("clh_title").innerHTML = col_name;
+    //document.getElementById("clh_title").innerHTML = col_name;  // 这里修改过2023年1月9日
+    document.getElementById("clh_title").innerHTML = "全部";  // 这里修改过2023年1月9日
 }
 
 //scroll page -> header.html -> .span_right prev & next btn
