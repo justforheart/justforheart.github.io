@@ -16,23 +16,18 @@ collection_order    :
   [
     "posts",
     "Linux",
-    "my_notes",
-    "ront-end",
+    "front-end",
+    "back-end",
     "music",
-    "physics",
-    "biology",
     "beauty",
-    "physics",
+    "my_notes",
+    # "biology",
+    # "physics",
   ]
 collections:
   posts:
     output          : true
     alias           : "博文"
-  ront-end:   
-    output          : true
-    permalink       : /:collection/:title/
-    sort_by         : date
-    alias           : "前端"
   Linux:
     output          : true
     permalink       : /:collection/:title/
@@ -41,19 +36,24 @@ collections:
       - portfolio2.md
       - portfolio1.md
     alias           : "Linux"
+  front-end:   
+    output          : true
+    permalink       : /:collection/:title/
+    sort_by         : date
+    alias           : "前端"
+  back-end:
+    output          : true
+    permalink       : /:collection/:title/
+    alias           : "后端"
   music:
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
     alias           : "音乐"
-  physics:
-    output          : true
-    permalink       : /:collection/:title/
-    alias           : "物理"
-  biology:
-    output          : true
-    permalink       : /:collection/:title/
-    alias           : "生物"
+  # biology:
+  #   output          : true
+  #   permalink       : /:collection/:title/
+  #   alias           : "生物"
   beauty:
     output          : true
     permalink       : /:collection/:title/
