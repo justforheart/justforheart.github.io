@@ -25,6 +25,9 @@ collection_order    :
     "physics",
   ]
 collections:
+  posts:
+    output          : true
+    alias           : "博文"
   ront-end:   
     output          : true
     permalink       : /:collection/:title/
@@ -60,9 +63,6 @@ collections:
     permalink       : /:collection/:title/
     # An alias should be given or the UNDERSCORE will appeared 
     alias           : "笔记"
-  posts:
-    output          : true
-    alias           : "博文"
 
 # 3. Comment settings（disqus.com）
 disqus_username     : JustForHeart
