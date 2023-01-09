@@ -1,4 +1,4 @@
-
+## 声明，此仓库已私人个性化设置，但核心没变，保留原作readme.md。感谢作者。thanks author a lot.
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
