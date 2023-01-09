@@ -15,14 +15,14 @@ bgtext              : "0123456789ABCFGHKLMNPQRSVWXYZabcdefghijklmnopqrstuvwxyz@#
 collection_order    : 
   [
     "posts",
+    "Linux",
+    "my_notes",
     "math",
     "music",
     "physics",
     "biology",
     "beauty",
     "physics",
-    "my_notes",
-    "Linux",
   ]
 collections:
   math:   
