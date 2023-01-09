@@ -62,7 +62,7 @@ collections:
     output          : true
     permalink       : /:collection/:title/
     # An alias should be given or the UNDERSCORE will appeared 
-    alias           : "笔记"
+    alias           : "杂记"
 
 # 3. Comment settings（disqus.com）
 disqus_username     : JustForHeart
