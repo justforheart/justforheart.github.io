@@ -17,7 +17,7 @@ collection_order    :
     "posts",
     "Linux",
     "my_notes",
-    "math",
+    "ront-end",
     "music",
     "physics",
     "biology",
@@ -25,11 +25,11 @@ collection_order    :
     "physics",
   ]
 collections:
-  math:   
+  ront-end:   
     output          : true
     permalink       : /:collection/:title/
     sort_by         : date
-    alias           : "数学"
+    alias           : "前端"
   Linux:
     output          : true
     permalink       : /:collection/:title/
