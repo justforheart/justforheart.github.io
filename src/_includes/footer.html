@@ -97,6 +97,16 @@
         </i>
       </a>
       {% endif %}
+      <!-- comment 2023年1月9日新增一个comment入口，可以进入github进行评论 -->
+      {% if site.comment %}
+      <a class="footer_btn" href="{{ site.comment }}">
+       <i class="fa-solid fa-comment"></i>
+          {% if page.btn_text != false %}
+          <p>Comment</p>
+          {% endif %}
+        </i>
+      </a>
+      {% endif %}
       <!-- steam -->
       {% if site.steam %}
       <a
