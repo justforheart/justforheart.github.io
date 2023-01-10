@@ -93,6 +93,7 @@ defaults:
 email               : "1491516376@qq.com" 
 github              : "justforheart" 
 website             : "https://justforheart.github.io"
+comment             : "https://github.com/justforheart/justforheart.github.io/issues"
       
 # 6. Where things are
 source              : .
