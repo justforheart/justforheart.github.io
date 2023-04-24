@@ -6,7 +6,7 @@ comment: true
 home_btn: true
 btn_text: true
 footer: true
-title: "黑客守则"
+title: "现维"
 author: "nobody"
 encrypted_text: true
 permalink: /
