@@ -6,7 +6,7 @@ comment: true
 home_btn: true
 btn_text: true
 footer: true
-title: "现维"
+title: "大梦初醒"
 author: "nobody"
 encrypted_text: true
 permalink: /
