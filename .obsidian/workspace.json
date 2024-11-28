@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "collections/_my_notes/2024年11月28日.md",
+                "file": "collections/_posts/2023-01-27-back-to-work.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2024年11月28日"
+              "title": "2023-01-27-back-to-work"
             }
           }
         ]
@@ -172,8 +172,10 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "392eed186c3f41c3",
+  "active": "012d0e5829471532",
   "lastOpenFiles": [
+    "Pasted image 20241129002206.png",
+    "collections/_posts/2023-04-19-查修摄像头.md",
     "collections/_my_notes/随笔测试页面.md",
     "collections/_my_notes/2024年11月28日.md",
     "collections/_my_notes/vulnhub-earth.md",
